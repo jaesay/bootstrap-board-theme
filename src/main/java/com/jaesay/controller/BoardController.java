@@ -12,4 +12,14 @@ public class BoardController {
 	public void viewBoard() {
 		
 	}
+	
+	@GetMapping("/list")
+	public void viewBoardList() {
+		
+	}
+	
+	@GetMapping("/new")
+	public void writeBoard() {
+		
+	}
 }
